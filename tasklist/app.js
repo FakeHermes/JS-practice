@@ -21,6 +21,7 @@ function loadEventListeners() {
 }
 
 //load data from localstorage
+//
 function getTasks(){
   let tasks;
   if(localStorage.getItem("tasks")===null){
